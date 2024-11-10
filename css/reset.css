@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Poke;
+    src: local(Poke), url(./poke.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+    list-style: none;
+    border: none;
+    font-family: 'Poke';
+}
