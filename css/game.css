@@ -1,11 +1,6 @@
-@media handheld {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
 .grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 15px;
     width: 100%;
     max-width: 800px;
@@ -52,4 +47,15 @@
 .disabled-card {
     filter: saturate(0);
     opacity: 0.5;
+}
+
+@media (min-width: 1024px){
+    .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    width: 100%;
+    max-width: 800px;
+    margin: 100px auto;
+}
 }
